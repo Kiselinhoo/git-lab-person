@@ -1,5 +1,6 @@
 def add(a, b):
     print(f"складываю {a} и {b}")
+    print(f"add {a}+{b}")
     return a + b
 def sub(a, b): return a - b
 def mul(a, b): return a * b

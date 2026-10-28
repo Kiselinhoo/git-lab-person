@@ -1,8 +1,11 @@
 def add(a, b): return a + b
-def sub(a, b):
+
+def sub_1(a, b):
     print(f"sub {a}-{b}")
     return a - b
+
 def mul(a, b): return a * b
+
 def div(a, b):
     if b == 0:
         raise ValueError("Деление на ноль")
